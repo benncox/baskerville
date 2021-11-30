@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+    font-size: 100%;
+    font-family: 'Neue Hass Grotesk', 'Helvetica', 'Helvetica Neue', sans-serif;
+}
+h1 {
+    font-size: 11.391rem;
+}
+h2 {
+    font-size: 3.375rem;
+}
+h3 {
+    font-size: 2.25rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+blockquote {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+p {
+    line-height: 140%;
+}
+
+#header-section {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url('images/john-baskerville.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+#header-section .top-nav {
+    position: absolute;
+    top: 0%;
+    padding: 2em;
+}
+#header-section .top-nav a {
+    margin-left: 2em;
+    color: white;
+}
+#header-section .header-content {
+    padding: 2em;
+    position: absolute;
+    bottom: 0%;
+}
+
+#the-man-section {
+    padding: 2em;
+}
+
+#the-typeface-section {
+    padding: 2em;
+}
+#the-typeface-section img {
+    width: 100%;
+}
+
+#mrs-eaves-section {
+    padding: 2em;
+}
+
+#footer-section {
+    padding: 2em;
+}
